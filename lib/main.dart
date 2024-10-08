@@ -5,7 +5,7 @@ void main() {
         "hobby": "Грати ігри, активне сидіння за компом, спорт",
     };
     writeKey(about);
-    namekey()
+    nameKey(about);
     
 
 }
