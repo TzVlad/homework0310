@@ -9,6 +9,12 @@ void main() {
     
 
 }
+void writeKey(Map<String, dynamic> map) {
+  map.forEach((key, value) {
+    print('$key');
+  });
+}
 
-void writeKey(Map<String, dynamic> about) {
+void writeName(Map<String, dynamic> map) {
+  print(map['name']);
 }
